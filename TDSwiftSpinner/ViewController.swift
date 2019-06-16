@@ -1,20 +1,13 @@
-//
-//  ViewController.swift
-//  TDSwiftSpinner
-//
-//  Created by Michael Dai on 6/15/19.
-//  Copyright © 2019 TDSwift. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // Spinner instance
+        let spinner = TDSwiftSpinner(viewController: self)
+        
+        // Show spinner
+        spinner.show()
     }
-
-
 }
-

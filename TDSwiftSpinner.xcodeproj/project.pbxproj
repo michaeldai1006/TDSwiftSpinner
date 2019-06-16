@@ -12,6 +12,7 @@
 		55DF25D022B60A4E003AED00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF25CE22B60A4E003AED00 /* Main.storyboard */; };
 		55DF25D222B60A4F003AED00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DF25D122B60A4F003AED00 /* Assets.xcassets */; };
 		55DF25D522B60A4F003AED00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55DF25D322B60A4F003AED00 /* LaunchScreen.storyboard */; };
+		55DF25DE22B60AB9003AED00 /* TDSwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DF25DD22B60AB9003AED00 /* TDSwiftSpinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		55DF25D122B60A4F003AED00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DF25D422B60A4F003AED00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55DF25D622B60A4F003AED00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DF25DD22B60AB9003AED00 /* TDSwiftSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDSwiftSpinner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,21 @@
 		55DF25C922B60A4E003AED00 /* TDSwiftSpinner */ = {
 			isa = PBXGroup;
 			children = (
+				55DF25DC22B60AA7003AED00 /* TDSwiftSpinner */,
 				55DF25CA22B60A4E003AED00 /* AppDelegate.swift */,
 				55DF25CC22B60A4E003AED00 /* ViewController.swift */,
 				55DF25CE22B60A4E003AED00 /* Main.storyboard */,
 				55DF25D122B60A4F003AED00 /* Assets.xcassets */,
 				55DF25D322B60A4F003AED00 /* LaunchScreen.storyboard */,
 				55DF25D622B60A4F003AED00 /* Info.plist */,
+			);
+			path = TDSwiftSpinner;
+			sourceTree = "<group>";
+		};
+		55DF25DC22B60AA7003AED00 /* TDSwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				55DF25DD22B60AB9003AED00 /* TDSwiftSpinner.swift */,
 			);
 			path = TDSwiftSpinner;
 			sourceTree = "<group>";
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55DF25DE22B60AB9003AED00 /* TDSwiftSpinner.swift in Sources */,
 				55DF25CD22B60A4E003AED00 /* ViewController.swift in Sources */,
 				55DF25CB22B60A4E003AED00 /* AppDelegate.swift in Sources */,
 			);
